@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Longest_Substring_Without_Repeating_Characters;
+import leetcode.Median_of_Two_Sorted_Arrays;
 
 public class RunCode_leetcode {
 
@@ -27,12 +27,23 @@ public class RunCode_leetcode {
 		System.out.println(result.toStringListNode());
 		*/
 		
-		
+		/*
 		// 3. Longest Substring Without Repeating Characters  (Medium)
 		Longest_Substring_Without_Repeating_Characters app = new Longest_Substring_Without_Repeating_Characters();
 		// app.lengthOfLongestSubstring 시간복잡도초과로인한 실패
 		//System.out.println(app.lengthOfLongestSubstring("abcabcaa"));
 		System.out.println(app.lengthOfLongestSubstring2("ababcdc"));
-
+		*/
+		
+		
+		// 4. Median of Two Sorted Arrays   (Hard)
+		Median_of_Two_Sorted_Arrays app = new Median_of_Two_Sorted_Arrays();
+		//int[] nums1 = {4,8,10};
+		//int[] nums2 = {3,7,11,15};
+		int[] nums1 = {5};
+		int[] nums2 = {6,7,8,9,10,11,12,13};
+		// 3 4 7 8 10 11 15
+		System.out.println(app.findMedianSortedArrays(nums1, nums2));
+		
 	}
 }
