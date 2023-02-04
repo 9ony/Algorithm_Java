@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Median_of_Two_Sorted_Arrays;
+import leetcode.Longest_Palindromic_Substring;
 
 public class RunCode_leetcode {
 
@@ -35,7 +35,7 @@ public class RunCode_leetcode {
 		System.out.println(app.lengthOfLongestSubstring2("ababcdc"));
 		*/
 		
-		
+		/*
 		// 4. Median of Two Sorted Arrays   (Hard)
 		Median_of_Two_Sorted_Arrays app = new Median_of_Two_Sorted_Arrays();
 		//int[] nums1 = {4,8,10};
@@ -44,6 +44,11 @@ public class RunCode_leetcode {
 		int[] nums2 = {6,7,8,9,10,11,12,13};
 		// 3 4 7 8 10 11 15
 		System.out.println(app.findMedianSortedArrays(nums1, nums2));
+		*/
+		
+		// 5. Longest Palindromic Substring  (Medium)
+		Longest_Palindromic_Substring app = new Longest_Palindromic_Substring();
+		System.out.println(app.longestPalindrome3("abcbaaaaaaa"));
 		
 	}
 }
