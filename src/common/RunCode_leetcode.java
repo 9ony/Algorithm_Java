@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Longest_Palindromic_Substring;
+import leetcode.Zigzag_Conversion;
 
 public class RunCode_leetcode {
 
@@ -45,10 +45,15 @@ public class RunCode_leetcode {
 		// 3 4 7 8 10 11 15
 		System.out.println(app.findMedianSortedArrays(nums1, nums2));
 		*/
-		
+		/*
 		// 5. Longest Palindromic Substring  (Medium)
 		Longest_Palindromic_Substring app = new Longest_Palindromic_Substring();
 		System.out.println(app.longestPalindrome3("abcbaaaaaaa"));
+		*/
+		
+		// 6. Zigzag Conversion  (Medium)
+		Zigzag_Conversion app = new Zigzag_Conversion();
+		System.out.println(app.convert("A", 2));
 		
 	}
 }
