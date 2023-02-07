@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Zigzag_Conversion;
+import leetcode.Reverse_Integer;
 
 public class RunCode_leetcode {
 
@@ -50,10 +50,16 @@ public class RunCode_leetcode {
 		Longest_Palindromic_Substring app = new Longest_Palindromic_Substring();
 		System.out.println(app.longestPalindrome3("abcbaaaaaaa"));
 		*/
-		
+		/*
 		// 6. Zigzag Conversion  (Medium)
 		Zigzag_Conversion app = new Zigzag_Conversion();
 		System.out.println(app.convert("A", 2));
+		*/
+		
+		// 7. Reverse Integer  (Medium)
+		Reverse_Integer app = new Reverse_Integer();
+		System.out.println(app.reverse(01111));
+		System.out.println();
 		
 	}
 }
