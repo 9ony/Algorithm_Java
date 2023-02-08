@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Reverse_Integer;
+import leetcode.String_to_Integer;
 
 public class RunCode_leetcode {
 
@@ -55,11 +55,16 @@ public class RunCode_leetcode {
 		Zigzag_Conversion app = new Zigzag_Conversion();
 		System.out.println(app.convert("A", 2));
 		*/
-		
+		/*
 		// 7. Reverse Integer  (Medium)
 		Reverse_Integer app = new Reverse_Integer();
 		System.out.println(app.reverse(01111));
 		System.out.println();
+		*/
+		
+		//8. String to Integer (atoi)  (Medium)
+		String_to_Integer app = new String_to_Integer();
+		System.out.println(app.myAtoi("        000000-42a1234"));		
 		
 	}
 }
