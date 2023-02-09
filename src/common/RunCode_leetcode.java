@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.String_to_Integer;
+import leetcode.Palindrome_Number;
 
 public class RunCode_leetcode {
 
@@ -61,10 +61,16 @@ public class RunCode_leetcode {
 		System.out.println(app.reverse(01111));
 		System.out.println();
 		*/
-		
+		/*
 		//8. String to Integer (atoi)  (Medium)
 		String_to_Integer app = new String_to_Integer();
 		System.out.println(app.myAtoi("        000000-42a1234"));		
+		*/
+		
+		//9. Palindrome Number    (Easy)
+		
+		Palindrome_Number app = new Palindrome_Number();
+		System.out.println(app.isPalindrome(1221));
 		
 	}
 }
