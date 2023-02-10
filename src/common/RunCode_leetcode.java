@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Palindrome_Number;
+import leetcode.Regular_Expression_Matching;
 
 public class RunCode_leetcode {
 
@@ -66,11 +66,20 @@ public class RunCode_leetcode {
 		String_to_Integer app = new String_to_Integer();
 		System.out.println(app.myAtoi("        000000-42a1234"));		
 		*/
-		
+		/*
 		//9. Palindrome Number    (Easy)
 		
 		Palindrome_Number app = new Palindrome_Number();
 		System.out.println(app.isPalindrome(1221));
+		*/
+		
+		
+		//10. Regular Expression Matching   (Hard)
+		
+		Regular_Expression_Matching app = new Regular_Expression_Matching();
+		System.out.println(app.isMatch("aab", "c*a*b"));
+		System.out.println(app.isMatch("mississippi", "mis*is*p*."));
+		System.out.println("----------------------------");
 		
 	}
 }
