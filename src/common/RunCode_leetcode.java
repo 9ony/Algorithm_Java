@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Integer_To_Roman;
+import leetcode.Roman_to_Integer;
 
 public class RunCode_leetcode {
 
@@ -90,13 +90,21 @@ public class RunCode_leetcode {
 		System.out.println(app.maxArea(param));
 		*/
 		
-		
+		/*
 		// 12. Integer To Roman  (Medium)
 		
 		
 		Integer_To_Roman app =  new Integer_To_Roman();
 		int param = 2132;
 		System.out.println(app.intToRoman(param));
+		*/
+		
+		
+		// 13. Roman to Integer    (Easy)
+		
+		Roman_to_Integer app =  new Roman_to_Integer();
+		String param = "MMCXXXII";
+		System.out.println(app.romanToInt(param));
 		
 	}
 }
