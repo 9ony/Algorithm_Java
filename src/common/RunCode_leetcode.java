@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Roman_to_Integer;
+import leetcode.Longest_Common_Prefix;
 
 public class RunCode_leetcode {
 
@@ -99,12 +99,21 @@ public class RunCode_leetcode {
 		System.out.println(app.intToRoman(param));
 		*/
 		
-		
+		/*
 		// 13. Roman to Integer    (Easy)
 		
 		Roman_to_Integer app =  new Roman_to_Integer();
 		String param = "MMCXXXII";
 		System.out.println(app.romanToInt(param));
+		*/
 		
+		// 14. Longest Common Prefix    (Easy)
+		
+		Longest_Common_Prefix app = new Longest_Common_Prefix();
+		String[] param = {"caa","xaa","laa","laaa","laac","laab"};
+		String[] param2 = {"flower","flow","flight"};
+		String[] param3 = {"dog","racecar","car"};
+		System.out.println(app.longestCommonPrefix(param2));
+	
 	}
 }
