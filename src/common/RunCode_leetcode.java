@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Three_Sum;
+import leetcode.ThreeSum_Closest;
 
 public class RunCode_leetcode {
 
@@ -115,7 +115,7 @@ public class RunCode_leetcode {
 		String[] param3 = {"dog","racecar","car"};
 		System.out.println(app.longestCommonPrefix(param2));
 		*/
-		
+		/*
 		// 15. 3Sum  (Medium)
 		
 		Three_Sum app = new Three_Sum();
@@ -124,6 +124,16 @@ public class RunCode_leetcode {
 		int[] param3 = {0,0,0};
 		int[] param4 = {-1,0,1,2,-1,-4};
 		System.out.println(app.threeSum2(param4));
+		*/
+		
+		
+		// 16. 3Sum Closest  (Medium)
+
+		ThreeSum_Closest app = new ThreeSum_Closest();
+		int[] param= {-1,0,1,2,-1,-4};
+		int[] param2= {-1,2,1,-4};
+		//System.out.println(app.threeSumClosest(param, -10)); 
+		System.out.println(app.threeSumClosest(param2, 1)); 
 		
 	}
 }
