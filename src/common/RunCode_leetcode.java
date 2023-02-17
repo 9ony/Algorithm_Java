@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.ThreeSum_Closest;
+import leetcode.Letter_Combinations_of_a_PhoneNumber;
 
 public class RunCode_leetcode {
 
@@ -126,7 +126,7 @@ public class RunCode_leetcode {
 		System.out.println(app.threeSum2(param4));
 		*/
 		
-		
+		/*
 		// 16. 3Sum Closest  (Medium)
 
 		ThreeSum_Closest app = new ThreeSum_Closest();
@@ -134,6 +134,13 @@ public class RunCode_leetcode {
 		int[] param2= {-1,2,1,-4};
 		//System.out.println(app.threeSumClosest(param, -10)); 
 		System.out.println(app.threeSumClosest(param2, 1)); 
+		*/
+		
+		
+		// 17. Letter Combinations of a Phone Number  (Medium)
+		Letter_Combinations_of_a_PhoneNumber app = new Letter_Combinations_of_a_PhoneNumber();
+		String param = "2";
+		System.out.println(app.letterCombinations(param));
 		
 	}
 }
