@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Letter_Combinations_of_a_PhoneNumber;
+import leetcode.Four_Sum;
 
 public class RunCode_leetcode {
 
@@ -136,11 +136,32 @@ public class RunCode_leetcode {
 		System.out.println(app.threeSumClosest(param2, 1)); 
 		*/
 		
-		
+		/*
 		// 17. Letter Combinations of a Phone Number  (Medium)
 		Letter_Combinations_of_a_PhoneNumber app = new Letter_Combinations_of_a_PhoneNumber();
 		String param = "2";
 		System.out.println(app.letterCombinations(param));
+		*/
+		
+		
+		// 18. 4Sum  (Medium)
+		Four_Sum app = new Four_Sum();
+		int[] param = {0,0,0,1};
+		//System.out.println(app.fourSum(param, 1));
+		int[] param2 = {1000000000,1000000000,1000000000,1000000000};
+		//	Java에서 정수형 변수의 범위는 -2^31부터 2^31-1 . 이 범위를 초과하면 overflow가 발생
+		//	여기서 (int)Math.pow(10,9)*4을 계산하면, 값은 4000000000이 되지만,
+		//	정수형 최대값인 2^31-1인 2147483647을 초과합니다.
+		//	overflow가 발생하여, 결과값이 -294967296이 나오게 됨. 
+		//	이는 2^32(4294967296)에서 4000000000을 뺀 값과 같습니다.
+		//	4개의 합을 구하는 식전에 오버플로우 예외처리를 하였음
+		//	try{
+        //		Math.addExact(nums[i] + nums[j] , nums[k] + nums[endindex]);
+        //	}catch(ArithmeticException overflow) {
+        //		endindex--;
+        //      continue;
+        //	}
+		System.out.println(app.fourSum(param2, -294967296));
 		
 	}
 }
