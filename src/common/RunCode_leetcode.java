@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Four_Sum;
+import leetcode.Remove_Nth_Node_From_End_of_List;
 
 public class RunCode_leetcode {
 
@@ -143,7 +143,7 @@ public class RunCode_leetcode {
 		System.out.println(app.letterCombinations(param));
 		*/
 		
-		
+		/*
 		// 18. 4Sum  (Medium)
 		Four_Sum app = new Four_Sum();
 		int[] param = {0,0,0,1};
@@ -162,6 +162,20 @@ public class RunCode_leetcode {
         //      continue;
         //	}
 		System.out.println(app.fourSum(param2, -294967296));
+		*/
 		
+		
+		// 19. Remove Nth Node From End of List  (Medium)
+		
+		Remove_Nth_Node_From_End_of_List app = new Remove_Nth_Node_From_End_of_List();
+		int[] param = {1};
+		ListNode listnode = new ListNode().InputInt(param);
+		
+		System.out.println(listnode.toStringListNode());
+		
+		System.out.println("result ==> "+app.removeNthFromEnd(listnode, 1).toStringListNode());
+		System.out.println("result ==> "+app.removeNthFromEnd2(listnode, 1).toStringListNode());
+		//app.removeNthFromEnd(head, 0);
+	
 	}
 }
