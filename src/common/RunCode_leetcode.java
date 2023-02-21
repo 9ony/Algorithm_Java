@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Valid_Parentheses;
+import leetcode.Merge_Two_Sorted_Lists;
 
 public class RunCode_leetcode {
 
@@ -178,11 +178,27 @@ public class RunCode_leetcode {
 		//app.removeNthFromEnd(head, 0);
 		 */
 		
-		
+		/*
 		// 20. Valid Parentheses    (Easy)
 		
 		Valid_Parentheses app = new Valid_Parentheses();
 		System.out.println(app.isValid("[][[[[]]]]()"));
+		 */
+		
+		
+		// 21. Merge Two Sorted Lists    (Easy)
+
+		Merge_Two_Sorted_Lists app = new Merge_Two_Sorted_Lists();
+		
+		int[] param1 = {1,2,4};
+		int[] param2 = {1,3,5};
+		
+		ListNode list1 = new ListNode().InputInt(param1);
+		ListNode list2 = new ListNode().InputInt(param2);
+		System.out.println(list1.toStringListNode());
+		System.out.println(list2.toStringListNode());
+		
+		System.out.println(app.mergeTwoLists(list1, list2).toStringListNode());
 		
 	}
 }
