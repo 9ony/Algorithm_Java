@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Merge_Two_Sorted_Lists;
+import leetcode.Generate_Parentheses;
 
 public class RunCode_leetcode {
 
@@ -185,7 +185,7 @@ public class RunCode_leetcode {
 		System.out.println(app.isValid("[][[[[]]]]()"));
 		 */
 		
-		
+		/*
 		// 21. Merge Two Sorted Lists    (Easy)
 
 		Merge_Two_Sorted_Lists app = new Merge_Two_Sorted_Lists();
@@ -199,6 +199,13 @@ public class RunCode_leetcode {
 		System.out.println(list2.toStringListNode());
 		
 		System.out.println(app.mergeTwoLists(list1, list2).toStringListNode());
+		*/
+		
+		
+		// 22. Generate Parentheses  (Medium)
+		
+		Generate_Parentheses app = new Generate_Parentheses();
+		System.out.println(app.generateParenthesis(3));
 		
 	}
 }
