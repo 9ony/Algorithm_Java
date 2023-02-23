@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Generate_Parentheses;
+import leetcode.Merge_k_Sorted_Lists;
 
 public class RunCode_leetcode {
 
@@ -201,11 +201,24 @@ public class RunCode_leetcode {
 		System.out.println(app.mergeTwoLists(list1, list2).toStringListNode());
 		*/
 		
-		
+		/*
 		// 22. Generate Parentheses  (Medium)
 		
 		Generate_Parentheses app = new Generate_Parentheses();
 		System.out.println(app.generateParenthesis(3));
+		*/
+		
+		
+		// 23. Merge k Sorted Lists   (Hard)
+		
+		Merge_k_Sorted_Lists app = new Merge_k_Sorted_Lists();
+		ListNode elements1 = new ListNode().InputInt(1,4,5);
+		ListNode elements2 = new ListNode().InputInt(1,3,4);
+		ListNode elements3 = new ListNode().InputInt(2,6);
+		
+		
+		ListNode[] lists = {elements1,elements2,elements3};
+ 		System.out.println(app.mergeKLists(lists));
 		
 	}
 }
