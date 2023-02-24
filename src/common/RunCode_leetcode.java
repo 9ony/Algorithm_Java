@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Merge_k_Sorted_Lists;
+import leetcode.Swap_Nodes_in_Pairs;
 
 public class RunCode_leetcode {
 
@@ -208,7 +208,7 @@ public class RunCode_leetcode {
 		System.out.println(app.generateParenthesis(3));
 		*/
 		
-		
+		/*
 		// 23. Merge k Sorted Lists   (Hard)
 		
 		Merge_k_Sorted_Lists app = new Merge_k_Sorted_Lists();
@@ -219,6 +219,13 @@ public class RunCode_leetcode {
 		
 		ListNode[] lists = {elements1,elements2,elements3};
  		System.out.println(app.mergeKLists(lists));
+		 */
+		
+		// 24. Swap Nodes in Pairs  (Medium)
+		 
+		Swap_Nodes_in_Pairs app = new Swap_Nodes_in_Pairs();
+		ListNode param = new ListNode().InputInt(1,2,3,4,5);
+		System.out.println(app.swapPairs(param).toStringListNode());
 		
 	}
 }
