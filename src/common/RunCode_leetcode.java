@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Swap_Nodes_in_Pairs;
+import leetcode.Reverse_Nodes_in_kGroup;
 
 public class RunCode_leetcode {
 
@@ -220,12 +220,19 @@ public class RunCode_leetcode {
 		ListNode[] lists = {elements1,elements2,elements3};
  		System.out.println(app.mergeKLists(lists));
 		 */
-		
+		/*
 		// 24. Swap Nodes in Pairs  (Medium)
 		 
 		Swap_Nodes_in_Pairs app = new Swap_Nodes_in_Pairs();
 		ListNode param = new ListNode().InputInt(1,2,3,4,5);
 		System.out.println(app.swapPairs(param).toStringListNode());
+		*/
+		
+		// 25. Reverse Nodes in k-Group   (Hard)
+		
+		Reverse_Nodes_in_kGroup app = new Reverse_Nodes_in_kGroup();
+		ListNode param = new ListNode().InputInt(1,2,3,4,5);
+		System.out.println(app.reverseKGroup(param, 2).toStringListNode());
 		
 	}
 }
