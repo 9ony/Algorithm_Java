@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Reverse_Nodes_in_kGroup;
+import leetcode.Remove_Duplicates_from_Sorted_Array;
 
 public class RunCode_leetcode {
 
@@ -227,12 +227,20 @@ public class RunCode_leetcode {
 		ListNode param = new ListNode().InputInt(1,2,3,4,5);
 		System.out.println(app.swapPairs(param).toStringListNode());
 		*/
-		
+		/*
 		// 25. Reverse Nodes in k-Group   (Hard)
 		
 		Reverse_Nodes_in_kGroup app = new Reverse_Nodes_in_kGroup();
 		ListNode param = new ListNode().InputInt(1,2,3,4,5);
 		System.out.println(app.reverseKGroup(param, 2).toStringListNode());
+		*/
+		
+		// 26. Remove Duplicates from Sorted Array    (Easy)
+		
+		Remove_Duplicates_from_Sorted_Array app = new Remove_Duplicates_from_Sorted_Array();
+		int[] param= {0,0,0,1,1,2,3,4,5,5,5,5,5,6};
+		int[] param2= {1,1,2};
+		System.out.println(app.removeDuplicates(param2));
 		
 	}
 }
