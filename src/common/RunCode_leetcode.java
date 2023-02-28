@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Remove_Duplicates_from_Sorted_Array;
+import leetcode.Remove_Element;
 
 public class RunCode_leetcode {
 
@@ -234,13 +234,21 @@ public class RunCode_leetcode {
 		ListNode param = new ListNode().InputInt(1,2,3,4,5);
 		System.out.println(app.reverseKGroup(param, 2).toStringListNode());
 		*/
-		
+		/*
 		// 26. Remove Duplicates from Sorted Array    (Easy)
 		
 		Remove_Duplicates_from_Sorted_Array app = new Remove_Duplicates_from_Sorted_Array();
 		int[] param= {0,0,0,1,1,2,3,4,5,5,5,5,5,6};
 		int[] param2= {1,1,2};
 		System.out.println(app.removeDuplicates(param2));
+		*/
+		
+		
+		// 27. Remove Element    (Easy)
+		
+		Remove_Element app = new Remove_Element();
+		int[] param = {1,2,3,4,5};
+		System.out.println(app.removeElement(param, 1));
 		
 	}
 }
