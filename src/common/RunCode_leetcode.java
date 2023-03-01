@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Remove_Element;
+import leetcode.Find_the_Index_of_the_First_Occurrence_in_a_String;
 
 public class RunCode_leetcode {
 
@@ -243,12 +243,19 @@ public class RunCode_leetcode {
 		System.out.println(app.removeDuplicates(param2));
 		*/
 		
-		
+		/*
 		// 27. Remove Element    (Easy)
 		
 		Remove_Element app = new Remove_Element();
 		int[] param = {1,2,3,4,5};
 		System.out.println(app.removeElement(param, 1));
+		 */
+		
+		
+		// 28. Find the Index of the First Occurrence in a String    (Easy)
+		
+		Find_the_Index_of_the_First_Occurrence_in_a_String app = new Find_the_Index_of_the_First_Occurrence_in_a_String();
+		System.out.println(app.strStr("testduplicated","tests"));
 		
 	}
 }
