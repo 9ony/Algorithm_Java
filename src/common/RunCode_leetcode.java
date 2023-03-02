@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Find_the_Index_of_the_First_Occurrence_in_a_String;
+import leetcode.Divide_Two_Integers;
 
 public class RunCode_leetcode {
 
@@ -251,11 +251,21 @@ public class RunCode_leetcode {
 		System.out.println(app.removeElement(param, 1));
 		 */
 		
-		
+		/*
 		// 28. Find the Index of the First Occurrence in a String    (Easy)
 		
 		Find_the_Index_of_the_First_Occurrence_in_a_String app = new Find_the_Index_of_the_First_Occurrence_in_a_String();
 		System.out.println(app.strStr("testduplicated","tests"));
+		*/
+		
+		// 29. Divide Two Integers  (Medium)
+		
+		Divide_Two_Integers app = new Divide_Two_Integers();
+		int dividend = -10;
+		int divisor = -3;
+		int dividend2 = -2147483648;
+		int divisor2 = 3;
+		System.out.println(app.divide(dividend2, divisor2));
 		
 	}
 }
