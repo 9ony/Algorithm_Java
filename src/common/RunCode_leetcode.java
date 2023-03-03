@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Divide_Two_Integers;
+import leetcode.Substring_with_Concatenation_of_All_Words;
 
 public class RunCode_leetcode {
 
@@ -257,7 +257,7 @@ public class RunCode_leetcode {
 		Find_the_Index_of_the_First_Occurrence_in_a_String app = new Find_the_Index_of_the_First_Occurrence_in_a_String();
 		System.out.println(app.strStr("testduplicated","tests"));
 		*/
-		
+		/*
 		// 29. Divide Two Integers  (Medium)
 		
 		Divide_Two_Integers app = new Divide_Two_Integers();
@@ -266,6 +266,37 @@ public class RunCode_leetcode {
 		int dividend2 = -2147483648;
 		int divisor2 = 3;
 		System.out.println(app.divide(dividend2, divisor2));
+		*/
+		
+		// 30. Substring with Concatenation of All Words   (Hard)
+		 
+		Substring_with_Concatenation_of_All_Words app = new Substring_with_Concatenation_of_All_Words();
+		String param = "ababaab";
+		String[] paramlist = {"ab","ba","ba"};
+		System.out.println(app.findSubstring2(param, paramlist));
+		
+		/*
+		//Collection 객체 복사 =만 사용하면 주소값이 같아지므로 결국 둘다 같은 객체를 바라봄
+		//따라서 addAll,stream.copyOf,unmodifiable,putAll(Collection<Map>)  등 으로 복사해준다.
+		List<String> test = new ArrayList<>(5);
+		List<String> test2 = new ArrayList<>(5);
+		for(int i = 0; i<5; i++) {
+			test.add(i+"");
+			test2.add(i+"");
+		}
+		System.out.println(test +","+ test2);
+		List<String> test3 = new ArrayList<>();
+		test3.addAll(test2);
+		test3.remove(0);
+		System.out.println(test +","+ test2);
+		System.out.println(test3);
+		Map<Integer,String> wordsMap = new HashMap<>();
+		Map<Integer,String> tempMap = new HashMap<>();
+		for(int i = 0; i<5; i++) {
+			wordsMap.put(i,i+"번째");
+		}
+		//tempMap.putAll(wordsMap);
+		*/
 		
 	}
 }
