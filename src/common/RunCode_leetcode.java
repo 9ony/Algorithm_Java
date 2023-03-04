@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Substring_with_Concatenation_of_All_Words;
+import leetcode.Next_Permutation;
 
 public class RunCode_leetcode {
 
@@ -267,14 +267,14 @@ public class RunCode_leetcode {
 		int divisor2 = 3;
 		System.out.println(app.divide(dividend2, divisor2));
 		*/
-		
+		/*
 		// 30. Substring with Concatenation of All Words   (Hard)
 		 
 		Substring_with_Concatenation_of_All_Words app = new Substring_with_Concatenation_of_All_Words();
 		String param = "ababaab";
 		String[] paramlist = {"ab","ba","ba"};
 		System.out.println(app.findSubstring2(param, paramlist));
-		
+		*/
 		/*
 		//Collection 객체 복사 =만 사용하면 주소값이 같아지므로 결국 둘다 같은 객체를 바라봄
 		//따라서 addAll,stream.copyOf,unmodifiable,putAll(Collection<Map>)  등 으로 복사해준다.
@@ -297,6 +297,12 @@ public class RunCode_leetcode {
 		}
 		//tempMap.putAll(wordsMap);
 		*/
+		
+		// 31. Next Permutation  (Medium)
+		
+		Next_Permutation app = new Next_Permutation();
+		int[] param = { 3,2,1 };
+		app.nextPermutation2(param);
 		
 	}
 }
