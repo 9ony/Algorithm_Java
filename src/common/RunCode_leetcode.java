@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Next_Permutation;
+import leetcode.Longest_Valid_Parentheses;
 
 public class RunCode_leetcode {
 
@@ -297,12 +297,20 @@ public class RunCode_leetcode {
 		}
 		//tempMap.putAll(wordsMap);
 		*/
-		
+		/*
 		// 31. Next Permutation  (Medium)
 		
 		Next_Permutation app = new Next_Permutation();
 		int[] param = { 3,2,1 };
 		app.nextPermutation2(param);
+		 */
+		
+		// 32. Longest Valid Parentheses   (Hard)
+		
+		
+		Longest_Valid_Parentheses app = new Longest_Valid_Parentheses();
+		int n = app.longestValidParentheses("()()((()))");
+		System.out.println(n);
 		
 	}
 }
