@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Longest_Valid_Parentheses;
+import leetcode.Search_in_Rotated_Sorted_Array;
 
 public class RunCode_leetcode {
 
@@ -304,13 +304,21 @@ public class RunCode_leetcode {
 		int[] param = { 3,2,1 };
 		app.nextPermutation2(param);
 		 */
-		
+		/*
 		// 32. Longest Valid Parentheses   (Hard)
 		
 		
 		Longest_Valid_Parentheses app = new Longest_Valid_Parentheses();
 		int n = app.longestValidParentheses("()()((()))");
 		System.out.println(n);
+		 */
+		
+		
+		// 33. Search in Rotated Sorted Array  (Medium)
+		
+		Search_in_Rotated_Sorted_Array app = new Search_in_Rotated_Sorted_Array();
+		int[] param = {7,8,9,0,1,2,3,4,5,};
+		System.out.println(app.search(param,8));
 		
 	}
 }
