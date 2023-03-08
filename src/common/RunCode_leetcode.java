@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Find_First_and_Last_Position_of_Element_in_Sorted_Array;
+import leetcode.Search_Insert_Position;
 
 public class RunCode_leetcode {
 
@@ -320,7 +320,7 @@ public class RunCode_leetcode {
 		int[] param = {7,8,9,0,1,2,3,4,5,};
 		System.out.println(app.search(param,8));
 		 */
-		
+		/*
 		// 34. Find First and Last Position of Element in Sorted Array  (Medium)
 		
 		Find_First_and_Last_Position_of_Element_in_Sorted_Array app = new Find_First_and_Last_Position_of_Element_in_Sorted_Array();
@@ -328,6 +328,15 @@ public class RunCode_leetcode {
 		int[] param2 = {2,2};
 		System.out.println(app.searchRange(param2, 2)[0]);		
 		System.out.println(app.searchRange(param2, 2)[1]);		
+		*/
 		
+		
+		// 35. Search Insert Position    (Easy)
+		
+		
+		Search_Insert_Position app = new Search_Insert_Position();
+		int[] param = {1,3,5,6};
+		System.out.println(app.searchInsert(param, 0));
+		 
 	}
 }
