@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Search_Insert_Position;
+import leetcode.Valid_Sudoku;
 
 public class RunCode_leetcode {
 
@@ -330,13 +330,30 @@ public class RunCode_leetcode {
 		System.out.println(app.searchRange(param2, 2)[1]);		
 		*/
 		
-		
+		/*
 		// 35. Search Insert Position    (Easy)
 		
 		
 		Search_Insert_Position app = new Search_Insert_Position();
 		int[] param = {1,3,5,6};
 		System.out.println(app.searchInsert(param, 0));
-		 
+		 */
+		
+		// 36. Valid Sudoku  (Medium)
+		
+		Valid_Sudoku app = new Valid_Sudoku();
+		char[][] param = {
+				{'8','3','.','.','7','.','.','.','.'},
+				{'6','.','.','1','9','5','.','.','.'},
+				{'.','9','8','.','.','.','.','6','.'},
+				{'8','.','.','.','6','.','.','.','3'},
+				{'4','.','.','8','.','3','.','.','1'},
+				{'7','.','.','.','2','.','.','.','6'},
+				{'.','6','.','.','.','.','2','8','.'},
+				{'.','.','.','4','1','9','.','.','5'},
+				{'.','.','.','.','8','.','.','7','9'}
+				};
+		System.out.println(app.isValidSudoku(param));
+		
 	}
 }
