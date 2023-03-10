@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Valid_Sudoku;
+import leetcode.Sudoku_Solver;
 
 public class RunCode_leetcode {
 
@@ -338,7 +338,7 @@ public class RunCode_leetcode {
 		int[] param = {1,3,5,6};
 		System.out.println(app.searchInsert(param, 0));
 		 */
-		
+		/*
 		// 36. Valid Sudoku  (Medium)
 		
 		Valid_Sudoku app = new Valid_Sudoku();
@@ -354,6 +354,24 @@ public class RunCode_leetcode {
 				{'.','.','.','.','8','.','.','7','9'}
 				};
 		System.out.println(app.isValidSudoku(param));
+		 */
+		
+		
+		// 37. Sudoku Solver   (Hard)
+		
+		Sudoku_Solver app = new Sudoku_Solver();
+		char[][] param = {
+		          		{'5','3','.','.','7','.','.','.','.'},
+		        		{'6','.','.','1','9','5','.','.','.'},
+		        		{'.','9','8','.','.','.','.','6','.'},
+		        		{'8','.','.','.','6','.','.','.','3'},
+		        		{'4','.','.','8','.','3','.','.','1'},
+		        		{'7','.','.','.','2','.','.','.','6'},
+		        		{'.','6','.','.','.','.','2','8','.'},
+		        		{'.','.','.','4','1','9','.','.','5'},
+		        		{'.','.','.','.','8','.','.','7','9'}
+		        		};
+		app.solveSudoku2(param);
 		
 	}
 }
