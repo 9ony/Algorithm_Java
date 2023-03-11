@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Sudoku_Solver;
+import leetcode.Count_and_Say;
 
 public class RunCode_leetcode {
 
@@ -356,7 +356,7 @@ public class RunCode_leetcode {
 		System.out.println(app.isValidSudoku(param));
 		 */
 		
-		
+		/*
 		// 37. Sudoku Solver   (Hard)
 		
 		Sudoku_Solver app = new Sudoku_Solver();
@@ -372,6 +372,14 @@ public class RunCode_leetcode {
 		        		{'.','.','.','.','8','.','.','7','9'}
 		        		};
 		app.solveSudoku2(param);
+		 */
 		
+		
+		// 38. Count and Say  (Medium)
+		
+		
+		Count_and_Say app = new Count_and_Say();
+		System.out.println(app.countAndSay2(6));
+		 
 	}
 }
