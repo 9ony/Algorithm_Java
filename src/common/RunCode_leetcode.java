@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Count_and_Say;
+import leetcode.Combination_Sum;
 
 public class RunCode_leetcode {
 
@@ -374,12 +374,20 @@ public class RunCode_leetcode {
 		app.solveSudoku2(param);
 		 */
 		
-		
+		/*
 		// 38. Count and Say  (Medium)
 		
 		
 		Count_and_Say app = new Count_and_Say();
 		System.out.println(app.countAndSay2(6));
-		 
+		 */
+		
+		
+		// 39. Combination Sum  (Medium)
+		
+		Combination_Sum app = new Combination_Sum();
+		int param[] = {2,3,5,8};
+		System.out.println(app.combinationSum(param, 10));
+		
 	}
 }
