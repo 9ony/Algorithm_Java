@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Combination_Sum;
+import leetcode.Combination_Sum2;
 
 public class RunCode_leetcode {
 
@@ -382,12 +382,20 @@ public class RunCode_leetcode {
 		System.out.println(app.countAndSay2(6));
 		 */
 		
-		
+		/*
 		// 39. Combination Sum  (Medium)
 		
 		Combination_Sum app = new Combination_Sum();
 		int param[] = {2,3,5,8};
 		System.out.println(app.combinationSum(param, 10));
+		 */
+		
+		
+		// 40. Combination Sum II  (Medium)
+		
+		Combination_Sum2 app = new Combination_Sum2();
+		int param[] = {10,1,2,7,6,1,5};
+		System.out.println(app.combinationSum2(param, 8));
 		
 	}
 }
