@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Combination_Sum2;
+import leetcode.First_Missing_Positive;
 
 public class RunCode_leetcode {
 
@@ -390,12 +390,20 @@ public class RunCode_leetcode {
 		System.out.println(app.combinationSum(param, 10));
 		 */
 		
-		
+		/*
 		// 40. Combination Sum II  (Medium)
 		
 		Combination_Sum2 app = new Combination_Sum2();
 		int param[] = {10,1,2,7,6,1,5};
 		System.out.println(app.combinationSum2(param, 8));
+		 */
 		
+		
+		// 41. First Missing Positive   (Hard)
+		 
+		
+		First_Missing_Positive app = new First_Missing_Positive();
+		int[] param = {5,7,7,7,1};
+		System.out.println(app.firstMissingPositive(param));
 	}
 }
