@@ -1,6 +1,8 @@
 package common;
 
-import programmers.kakaoBlind2023.example2;
+import java.util.Arrays;
+
+import programmers.kakaoBlind2023.example3;
 
 public class RunCode_programmers_kakaoblind2023 {
 	public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class RunCode_programmers_kakaoblind2023 {
 		System.out.println(Arrays.toString(app.solution(today, terms, privacies)));
 		*/
 		
-		
+		/*
 		// 택배 배달과 수거하기 (lv2)
 		
 		
@@ -34,6 +36,16 @@ public class RunCode_programmers_kakaoblind2023 {
 		int[] deliveries2 = {1,0,2,0,1,0,2};
 		int[] pickups2 = {0,2,0,1,0,2,0};
 		System.out.println("총 거리 ==>"+app.solution2(cap, n, deliveries, pickups));
+		*/
+
+		
+		 // 이모티콘 할인행사 (lv2)
+		
+		example3 app = new example3();
+		int[][] users = {{40, 10000}, {25, 10000}}; 
+		int[] emoticons = {7000, 9000};
+		System.out.println(Arrays.toString(app.solution2(users, emoticons)));
+		
 		
 		
 	}
