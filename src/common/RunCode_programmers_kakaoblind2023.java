@@ -2,7 +2,7 @@ package common;
 
 import java.util.Arrays;
 
-import programmers.kakaoBlind2023.example3;
+import programmers.kakaoBlind2023.example4;
 
 public class RunCode_programmers_kakaoblind2023 {
 	public static void main(String[] args) {
@@ -38,14 +38,21 @@ public class RunCode_programmers_kakaoblind2023 {
 		System.out.println("총 거리 ==>"+app.solution2(cap, n, deliveries, pickups));
 		*/
 
-		
+		/*
 		 // 이모티콘 할인행사 (lv2)
 		
 		example3 app = new example3();
 		int[][] users = {{40, 10000}, {25, 10000}}; 
 		int[] emoticons = {7000, 9000};
 		System.out.println(Arrays.toString(app.solution2(users, emoticons)));
+		*/
 		
+		
+		 // 표현 가능한 이진트리 (lv3)
+		
+		example4 app = new example4();
+		long[] numbers= {7,42,2,423};
+		System.out.println(Arrays.toString(app.solution(numbers)));
 		
 		
 	}
