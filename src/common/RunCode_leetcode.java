@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.First_Missing_Positive;
+import leetcode.Trapping_Rain_Water;
 
 public class RunCode_leetcode {
 
@@ -398,12 +398,19 @@ public class RunCode_leetcode {
 		System.out.println(app.combinationSum2(param, 8));
 		 */
 		
-		
+		/*
 		// 41. First Missing Positive   (Hard)
 		 
 		
 		First_Missing_Positive app = new First_Missing_Positive();
 		int[] param = {5,7,7,7,1};
 		System.out.println(app.firstMissingPositive(param));
+		 */
+		
+		// 42. Trapping Rain Water
+		
+		Trapping_Rain_Water app = new Trapping_Rain_Water();
+		int[] param = {0,1,0,2,1,0,1,3,2,1,2,1};
+		System.out.println(app.trap(param));
 	}
 }
