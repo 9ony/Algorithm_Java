@@ -1,5 +1,6 @@
 package common;
 
+import leetcode.Multiply_Strings;
 import leetcode.Trapping_Rain_Water;
 
 public class RunCode_leetcode {
@@ -406,11 +407,19 @@ public class RunCode_leetcode {
 		int[] param = {5,7,7,7,1};
 		System.out.println(app.firstMissingPositive(param));
 		 */
-		
+		/*
 		// 42. Trapping Rain Water
 		
 		Trapping_Rain_Water app = new Trapping_Rain_Water();
 		int[] param = {0,1,0,2,1,0,1,3,2,1,2,1};
 		System.out.println(app.trap(param));
+		*/
+		
+		
+		// 43. Multiply Strings (Medium)
+		
+		Multiply_Strings app = new Multiply_Strings();
+		
+		System.out.println(app.multiply2("100", "100"));
 	}
 }
