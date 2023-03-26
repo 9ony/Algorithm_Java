@@ -1,7 +1,6 @@
 package common;
 
-import leetcode.Multiply_Strings;
-import leetcode.Trapping_Rain_Water;
+import leetcode.Wildcard_Matching;
 
 public class RunCode_leetcode {
 
@@ -415,11 +414,30 @@ public class RunCode_leetcode {
 		System.out.println(app.trap(param));
 		*/
 		
-		
+		/*
 		// 43. Multiply Strings (Medium)
 		
 		Multiply_Strings app = new Multiply_Strings();
 		
 		System.out.println(app.multiply2("100", "100"));
+		*/
+		
+		
+		// 44. Wildcard Matching (hard)
+		
+		Wildcard_Matching app = new Wildcard_Matching();
+		
+		String param = "adceb";
+		String match = "a*b";
+		//String param = "aa";
+		//String match = "*";
+		
+		String param2 = "*";
+		String param3 = "?";
+		
+		System.out.println(app.isMatch("aaaaaaaaaaaaaaaaaaaaaaaaabbaa", "*??????"));
+		
+		
+		
 	}
 }
