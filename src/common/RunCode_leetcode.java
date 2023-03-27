@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Wildcard_Matching;
+import leetcode.Jump_Game_II;
 
 public class RunCode_leetcode {
 
@@ -422,7 +422,7 @@ public class RunCode_leetcode {
 		System.out.println(app.multiply2("100", "100"));
 		*/
 		
-		
+		/*
 		// 44. Wildcard Matching (hard)
 		
 		Wildcard_Matching app = new Wildcard_Matching();
@@ -436,7 +436,15 @@ public class RunCode_leetcode {
 		String param3 = "?";
 		
 		System.out.println(app.isMatch("aaaaaaaaaaaaaaaaaaaaaaaaabbaa", "*??????"));
+		*/
 		
+		
+		// 45. Jump Game II (Medium)
+		
+		int[] param = {2,1,2,1,4,5,1,2,3,2,1,2,1,2,1,1,5,6,4};
+		
+		Jump_Game_II app = new Jump_Game_II();
+		System.out.println(app.jump(param));
 		
 		
 	}
