@@ -1,6 +1,6 @@
 package common;
 
-import leetcode.Permutations;
+import leetcode.Permutations_II;
 
 public class RunCode_leetcode {
 
@@ -447,14 +447,20 @@ public class RunCode_leetcode {
 		System.out.println(app.jump(param));
 		*/
 		
-		
+		/*
 		// 46. Permutations (Medium)
 		
 		Permutations app = new Permutations();
 		
 		int[] param = {1,2,3};
 		System.out.println(app.permute(param));
+		*/
 		
 		
+		// 47. Permutations II (Medium)
+		
+		Permutations_II app = new Permutations_II();
+		int[] param = {1,1,3};
+		System.out.println(app.permuteUnique(param));
 	}
 }
