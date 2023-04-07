@@ -1,8 +1,6 @@
 package common;
 
-import java.util.Arrays;
-
-import programmers.kakaoBlind2023.example4;
+import programmers.kakaoBlind2023.example5;
 
 public class RunCode_programmers_kakaoblind2023 {
 	public static void main(String[] args) {
@@ -47,14 +45,27 @@ public class RunCode_programmers_kakaoblind2023 {
 		System.out.println(Arrays.toString(app.solution2(users, emoticons)));
 		*/
 		
-		
+		/*
 		 // 표현 가능한 이진트리 (lv3)
 		
 		example4 app = new example4();
 		long[] numbers= {7,42,2,423};
 		System.out.println(Arrays.toString(app.solution(numbers)));
+		*/
 		
+		 // 표 병합 (lv3)
 		
+		example5 app = new example5();
+		String[] param = {"UPDATE 1 1 menu", "UPDATE 1 2 category", 
+				"UPDATE 2 1 bibimbap", "UPDATE 2 2 korean", 
+				"UPDATE 2 3 rice", "UPDATE 3 1 ramyeon", 
+				"UPDATE 3 2 korean", "UPDATE 3 3 noodle", 
+				"UPDATE 3 4 instant", "UPDATE 4 1 pasta", 
+				"UPDATE 4 2 italian", "UPDATE 4 3 noodle", 
+				"MERGE 1 2 1 3", "MERGE 1 3 1 4", 
+				"UPDATE korean hansik", "UPDATE 1 3 group", 
+				"UNMERGE 1 4", "PRINT 1 3", "PRINT 1 4"};
+		System.out.println(app.solution(param));
 	}
 	
 }
