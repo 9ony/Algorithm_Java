@@ -1,6 +1,8 @@
 package common;
 
-import leetcode.Permutations_II;
+import java.util.Arrays;
+
+import leetcode.medium.Group_Anagrams;
 
 public class RunCode_leetcode {
 
@@ -456,11 +458,27 @@ public class RunCode_leetcode {
 		System.out.println(app.permute(param));
 		*/
 		
-		
+		/*
 		// 47. Permutations II (Medium)
 		
 		Permutations_II app = new Permutations_II();
 		int[] param = {1,1,3};
 		System.out.println(app.permuteUnique(param));
+		*/
+		/*
+		// 48. Rotate Image (Medium)
+		Rotate_Image app = new Rotate_Image();
+		int[][] param = {{1,2,3,4},
+						{5,6,7,8},
+						{9,10,11,12},
+						{13,14,15,16}};
+		app.rotate(param);
+		*/
+		
+		
+		// 49.Group Anagrams (Medium) 
+		Group_Anagrams app = new Group_Anagrams();
+		String[] param = {"eat","tea","tan","ate","nat","bat"};
+		System.out.println(Arrays.toString(app.groupAnagrams3(param).toArray()));
 	}
 }
