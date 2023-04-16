@@ -1,8 +1,6 @@
 package common;
 
-import java.util.Arrays;
-
-import leetcode.medium.Group_Anagrams;
+import leetcode.medium.Pow_xn;
 
 public class RunCode_leetcode {
 
@@ -475,10 +473,18 @@ public class RunCode_leetcode {
 		app.rotate(param);
 		*/
 		
-		
+		/*
 		// 49.Group Anagrams (Medium) 
 		Group_Anagrams app = new Group_Anagrams();
 		String[] param = {"eat","tea","tan","ate","nat","bat"};
-		System.out.println(Arrays.toString(app.groupAnagrams3(param).toArray()));
+		System.out.println(Arrays.toString(app.groupAnagrams(param).toArray()));
+		*/
+		
+		
+		//50.Pow (x,n) (Medium)
+		Pow_xn app = new Pow_xn();
+		System.out.println(app.myPow(2.000, 10));
+		
+
 	}
 }
