@@ -1,6 +1,9 @@
 package common;
 
-import leetcode.medium.Pow_xn;
+import java.util.Arrays;
+
+import leetcode.hard.N_QUEENS;
+import leetcode.hard.N_QUEENS_II;
 
 public class RunCode_leetcode {
 
@@ -480,11 +483,19 @@ public class RunCode_leetcode {
 		System.out.println(Arrays.toString(app.groupAnagrams(param).toArray()));
 		*/
 		
-		
+		/*
 		//50.Pow (x,n) (Medium)
 		Pow_xn app = new Pow_xn();
 		System.out.println(app.myPow(2.000, 10));
+		*/
 		
+		//51.N-Queens (hard)
+		N_QUEENS app = new N_QUEENS();
+		System.out.println(Arrays.toString(app.solveNQueens(4).toArray()));
+		
+		//52.N-QueensII (hard)
+		N_QUEENS_II app2 = new N_QUEENS_II();
+		System.out.println(app2.totalNQueens(4));
 
 	}
 }
